@@ -1,6 +1,6 @@
-import '../styles/Testimony.css';
+import './Testimony.css';
 
-const images = import.meta.glob('../assets/img/*.png', 
+const images = import.meta.glob('../../assets/img/*.png', 
     { eager: true, import: 'default' });
 
 function Testimony(props) {
@@ -10,7 +10,7 @@ function Testimony(props) {
       <img 
         className='imageTestimony'
 
-        src={images[`../assets/img/${props.image}.png`]}
+        src={images[`../../assets/img/${props.image}.png`]}
         alt={`Picture of ${props.name}`} 
       />
 

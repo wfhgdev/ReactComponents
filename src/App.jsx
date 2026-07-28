@@ -1,7 +1,7 @@
-import GreetingMsg from "./components/Greeting";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Testimony from "./components/Testimony";
+import GreetingMsg from "./components/greeting/Greeting";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Testimony from "./components/testimony/Testimony";
 
 function App() {
     return (
