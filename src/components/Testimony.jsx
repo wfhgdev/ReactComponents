@@ -6,22 +6,22 @@ const images = import.meta.glob('../assets/img/*.png',
 function Testimony(props) {
   return (
 
-    <div className='container-testimony'>
+    <div className='containerTestimony'>
       <img 
-        className='image-testimony'
+        className='imageTestimony'
 
         src={images[`../assets/img/${props.image}.png`]}
         alt={`Picture of ${props.name}`} 
       />
 
-      <div className='container-text-testimony'>
-        <p className='name-testimony'>
+      <div className='containerTextTestimony'>
+        <p className='nameTestimony'>
             {props.name}
         </p>
-        <p className='position-testimony'>
+        <p className='positionTestimony'>
             {props.position}
         </p>
-        <p className='text-testimony'>
+        <p className='textTestimony'>
             {props.testimonyText}
 		</p>
       </div>

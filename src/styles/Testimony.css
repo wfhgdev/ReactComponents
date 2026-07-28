@@ -1,4 +1,4 @@
-.container-testimony{
+.containerTestimony{
     width: 1170px;
     height: 368px;
     margin: 10px 10px 50px;
@@ -9,12 +9,12 @@
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
 }
 
-.image-testimony {
+.imageTestimony {
     height: 100%;
     width: auto;
 }
 
-.container-text-testimony {
+.containerTextTestimony {
     text-align: center;
     padding: 40px;
     font-family: Lato, sans-serif;
@@ -22,17 +22,17 @@
     line-height: 1.5em;
 }
 
-.name-testimony {
+.nameTestimony {
     font-size: 1.3rem;
 }
 
-.position-testimony {
+.positionTestimony {
     font-size: 1.3rem;
     margin-top: 15px;
     padding-bottom: 30px;
 }
 
-.text-testimony {
+.textTestimony {
     font-size: 1.1rem;
     text-align: justify;
 }
